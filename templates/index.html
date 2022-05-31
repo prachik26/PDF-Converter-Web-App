@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/styles.css')}}">
+</head>
+<body>
+<center>
+    <!--<h1>PDF Converter</h1>
+    <p>Upload only HTML, C++, Text, Python and Word files</p>
+    <form action="/index" method="POST" enctype="multipart/form-data">
+       <input type="file" name="filename">
+       <input type="submit" value="Convert file">
+    </form>-->
+    <h1 style="font-family:''" style="text-align:center">PDF Converter</h1>
+    <h3>Convert HTML, Python, Word, Text and C++ files</h3>
+    <hr></hr>
+    <div  style = "position:relative; left:20px; top:2px" class="main">
+      <form action="/index" method="POST" enctype="multipart/form-data">
+        <input type="file" id="file" name="filename" value="Select File" placeholder="Select File">
+        <input type="submit" id="submit"  name="Upload" placeholder="Upload">
+      </form>
+    </div>
+</center>
+<!--<center>
+    <form action="/extract" method="POST" enctype="multipart/form-data">
+        <input type="file" name="filename">
+        <input type="submit" value="Extract file">
+     </form>
+
+</center>-->
+</body>
+</html>
