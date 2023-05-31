@@ -1,2 +1,2 @@
 # PDF-Converter-Web-App
-This is a Flask web application which can convert any text file such as .txt, .docx, into a PDF file and let's you download it on your system.
+This is a Flask web application which allows the user to upload any text file such as .txt, .docx, .cpp, .py. .html files and convert them into a PDF files and let's you download it on your system.
